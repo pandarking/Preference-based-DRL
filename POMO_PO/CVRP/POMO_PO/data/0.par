@@ -1,0 +1,4 @@
+PROBLEM_FILE = 0.vrp
+RUNS = 10
+TIME_LIMIT = 100
+TOUR_FILE = 0.sol
