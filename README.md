@@ -1,6 +1,16 @@
 # Preference-based Deep Reinforcement Learning for Historical Route Estimation
 Our paper [Preference-based Deep Reinforcement Learning for Historical Route Estimation](https://www.ijcai.org/proceedings/2025/0955.pdf) has been accepted to IJCAI 2025.
 
+We propose a preference-based DRL method characterized by its reward design and optimization objective, which is specialized to learn historical route preferences. Our experiments demonstrate that the method aligns generated solutions more closely with human preferences. Moreover, it exhibits strong generalization performance across a variety of instances, offering a robust solution for different VRP scenarios.
+
+### Training
+```python
+python train_n20.py
+```
+### Testing
+```python
+python test_n20.py
+```
 ***
 ## Reference
 If you find this codebase useful, please consider citing the paper:
